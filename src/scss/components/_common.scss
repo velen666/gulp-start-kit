@@ -1,0 +1,39 @@
+body {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: 300;
+  color: #000000;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn {
+  background-color: #FFE01B;
+  padding: 14px 20px;
+  height: 44px;
+  max-width: 150px;
+  font-family: Bebas Neue;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}

@@ -1,0 +1,51 @@
+.main-screen {
+  width: 100%;
+  background: linear-gradient(5deg,rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url("./../img/main-background.jpg");
+  background-size: cover;
+  height: auto;
+
+
+  .main-container {
+    padding: 50px 110px 70px;
+  }
+
+  .main-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main__title {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    color: #FFFFFF;
+  }
+
+  .main__photo {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .main__text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .main__description {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+}
