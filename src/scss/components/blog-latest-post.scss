@@ -1,5 +1,5 @@
 .blog-latest-post {
-  padding: 55px 0;
+  padding: 50px 0;
   background: #F2F2F2;
 
   .blog__container {
@@ -7,45 +7,53 @@
   }
 
   .blog__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
     font-family: Open Sans Condensed;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
     line-height: 75px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #000000;
   }
 
-  .blog__post-container {
+  .blog__post {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 40px;
     margin: 0 -10px;
   }
 
-  .blog-item {
+  .blog-post__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .post-item {
     width: 100%;
-    max-width: 33.33%;
+    max-width: 31.66%;
     margin: 0 10px;
     background: #ffffff;
   }
 
-  .blog-item__image-box {
-    //max-width: 33.33%;
+  .post-item__image-box {
     width: 100%;
+    height: auto;
 
     &>img {
       max-width: 100%;
     }
   }
 
-  .blog-item__content {
+  .post-item__content {
     padding: 15px 20px 20px;
   }
 
-  .blog-item__post-title {
+  .post-item__post-title {
     font-family: Open Sans Condensed;
     font-style: normal;
     font-weight: bold;
@@ -57,7 +65,7 @@
     margin-top: 20px;
   }
 
-  .blog-item__post-description {
+  .post-item__post-description {
     font-family: Open Sans Condensed;
     font-style: normal;
     font-weight: 300;
@@ -69,17 +77,22 @@
     margin-bottom: 50px;
   }
 
-  .blog-item__footer {
-    display: row;
-    justify-content: space-between;
+  .post-item__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
   }
 
-  .btn-go-to-news {
-    max-width: 215px;
+  .post-item__btn-go-to-news {
+    max-width: 190px;
   }
 
-  .post-date {
+  .post-item__date {
+    display: block;
+    width: 100px;
+    height: 28px;
+    margin-left: 30px;
     font-family: Open Sans Condensed;
     font-style: normal;
     font-weight: 300;
@@ -89,5 +102,20 @@
     align-items: center;
     color: #000000;
     margin-left: 22px;
+  }
+
+  .post-more-news {
+    margin: 50px auto 0;
+  }
+
+  .post-more-mews__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .btn-get-more-news {
+    width: 100%;
+    max-width: 238px;
   }
 }

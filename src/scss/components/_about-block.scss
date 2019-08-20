@@ -1,0 +1,117 @@
+.about-block {
+
+    &__wrapper {
+      padding: 25px 0 43px;
+    }
+  
+    &__title {
+      color: #000000;
+      font-family: Open Sans Condensed;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 55px;
+      line-height: 75px;
+      display: flex;
+      align-items: center;
+    }
+  
+    &__inner {
+      margin-top: 49px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    &__photo {
+      &__wrapper {
+        max-width: 280px;
+      }
+    }
+  
+    &__profile {
+      max-width: 880px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 20px;
+    }
+  
+    &__profile-title {
+      font-family: Open Sans Condensed;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 61px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+    }
+
+    &__profile-text {
+      font-family: Open Sans Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 27px;
+      display: flex;
+      align-items: center;
+    }
+
+    &__events {
+      display: flex;
+      justify-content: left;
+      margin-top: 30px;
+    }
+
+    &__events-block {
+      display: flex;
+      align-items: start;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+
+      :first-child {
+        margin-right: 20px;
+      }
+
+      &__sity-icon {
+        width: 56px;
+      }
+  
+      &__sity {
+        color: #000000;
+        font-family: Open Sans Condensed;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        margin-top: 16px;
+      }
+
+      &__status-icon {
+        width: 56px;
+      }
+
+      &__status {
+        color: #000000;
+        font-family: Open Sans Condensed;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        margin-top: 16px;
+      }
+
+      &__date-icon {
+        width: 56px;
+      }
+
+      &__date {
+        color: #000000;
+        font-family: Open Sans Condensed;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        margin-top: 16px;
+      }
+
+    }
+  }

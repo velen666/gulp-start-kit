@@ -5,16 +5,16 @@
   height: auto;
 
 
-  .main-container {
+  .main-screen__container {
     padding: 50px 110px 70px;
   }
 
-  .main-info {
+  .main-screen__info {
     display: flex;
     justify-content: space-between;
   }
 
-  .main__title {
+  .main-screen__title {
     font-family: Open Sans Condensed;
     font-style: normal;
     font-weight: bold;
@@ -25,20 +25,20 @@
     color: #FFFFFF;
   }
 
-  .main__photo {
+  .main-screen__photo {
     width: 100%;
     max-width: 280px;
     height: auto;
     margin-right: 20px;
   }
 
-  .main__text-block {
+  .main-screen__text-block {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .main__description {
+  .main-screen__description {
     font-family: Open Sans Condensed;
     font-style: normal;
     font-weight: 300;

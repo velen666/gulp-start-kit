@@ -6,8 +6,9 @@
 @import "./components/fonts";
 
 //Импорт стилей страниц
-@import "./pages/index";
-@import "./pages/contacts";
+@import "./pages/_index";
+@import "./pages/_about";
+@import "./pages/_contacts";
 
 //Импорт компонентов для страниц
 @import "./components/header";
